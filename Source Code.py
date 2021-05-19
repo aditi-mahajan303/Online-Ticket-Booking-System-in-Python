@@ -12,7 +12,7 @@ def seat_detail():
 
 
 
-print("Welcome to 'So Called Online Movie Ticket' Booking..!!")
+print("Welcome to 'Nitara' Booking..!!")
 
 print()
 

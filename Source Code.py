@@ -1,14 +1,10 @@
-#Online Movie Ticket Booking with functions
-
-#array isn't inbuit module hence we need to import
-
 from array import *
 
 def seat_detail():
     print("Ticket booking for the movie: ", mov[bkmov])
-    print("Silver seats:    1 - 20 (per seat-130)")
-    print("Gold seats:     21 - 40 (per seat-150)")
-    print("Platinum seats: 41 - 60 (per seat-175)\n")
+    print("Silver seats:    1 - 20 (per seat-Rs 130)")
+    print("Gold seats:     21 - 40 (per seat-Rs 150)")
+    print("Platinum seats: 41 - 60 (per seat-Rs 180)\n")
 
 
 
@@ -31,7 +27,7 @@ bkmov = int(input("Enter movie number: "))
 
 print()
 
-# seat_detail() function call
+
 seat_detail()
 
 no_seat = int(input("No of seats to be booked: "))
@@ -109,4 +105,4 @@ print()
 # to calculate the total amount
 
 price = (s_amt * 130) + (g_amt * 150) + (p_amt * 175)
-print("\nTotal amount: Rs.",price)
+print("\nTotal amount to be paid is : Rs.",price)
